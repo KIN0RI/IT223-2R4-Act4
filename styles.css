@@ -1,42 +1,109 @@
 /* General Styles */
 html, body, h1, h2, h3, h4, h5 {
     font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Navbar Styles */
+/* Main Container */
+.main-container {
+    max-width: 1400px;
+    margin: 100px auto 20px;
+    padding: 20px;
+}
+
+/* Header Styles */
 .w3-top .w3-bar {
     background-color: #607d8b; /* w3-theme-d2 */
+    padding: 10px 0;
 }
 
-.w3-top .w3-bar .w3-button:hover {
-    background-color: #ffffff; /* w3-hover-white */
+.w3-top .w3-bar .w3-button {
+    color: white;
+    padding: 15px 20px;
+    transition: none; /* Remove hover animation */
 }
 
 .w3-top .w3-bar .w3-button.w3-theme-d4 {
     background-color: #455a64; /* w3-theme-d4 */
 }
 
-/* Profile Image */
-.w3-circle {
-    border-radius: 50%;
+/* Profile Section */
+.profile-card {
+    padding: 20px;
+}
+
+.profile-image {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+/* Interests Section */
+.interests-card {
+    padding: 20px;
+}
+
+.interests-card p {
+    margin: 10px 0;
 }
 
 /* Alert Box */
-.w3-display-container {
-    position: relative;
+.alert-box {
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
-.w3-display-topright {
-    position: absolute;
-    right: 0;
-    top: 0;
+/* Posts Section */
+.post-card {
+    padding: 20px;
+}
+
+.status-box {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.post-button {
+    width: 100%;
+    transition: none; /* Remove hover animation */
+}
+
+.post-example {
+    padding: 20px;
+}
+
+.post-avatar {
+    width: 60px;
+    height: 60px;
+}
+
+/* Events Section */
+.events-card {
+    padding: 20px;
+}
+
+.event-image {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.friend-request {
+    padding: 20px;
+}
+
+.friend-avatar {
+    width: 50%;
+    margin-bottom: 15px;
 }
 
 /* Footer Styles */
-.w3-theme-d3 {
-    background-color: #546e7a; /* w3-theme-d3 */
+.footer {
+    text-align: center;
+    padding: 20px;
 }
 
-.w3-theme-d5 {
-    background-color: #37474f; /* w3-theme-d5 */
+.powered-by {
+    text-align: center;
+    padding: 10px;
 }
