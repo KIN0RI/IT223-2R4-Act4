@@ -1,0 +1,42 @@
+/* General Styles */
+html, body, h1, h2, h3, h4, h5 {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar Styles */
+.w3-top .w3-bar {
+    background-color: #607d8b; /* w3-theme-d2 */
+}
+
+.w3-top .w3-bar .w3-button:hover {
+    background-color: #ffffff; /* w3-hover-white */
+}
+
+.w3-top .w3-bar .w3-button.w3-theme-d4 {
+    background-color: #455a64; /* w3-theme-d4 */
+}
+
+/* Profile Image */
+.w3-circle {
+    border-radius: 50%;
+}
+
+/* Alert Box */
+.w3-display-container {
+    position: relative;
+}
+
+.w3-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Footer Styles */
+.w3-theme-d3 {
+    background-color: #546e7a; /* w3-theme-d3 */
+}
+
+.w3-theme-d5 {
+    background-color: #37474f; /* w3-theme-d5 */
+}
