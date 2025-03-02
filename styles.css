@@ -9,19 +9,15 @@ html, body, h1, h2, h3, h4, h5 {
 .main-container {
     max-width: 1400px;
     margin: 100px auto 20px;
-    padding: 20px;
 }
 
 /* Header Styles */
 .w3-top .w3-bar {
     background-color: #607d8b; /* w3-theme-d2 */
-    padding: 10px 0;
 }
 
 .w3-top .w3-bar .w3-button {
     color: white;
-    padding: 15px 20px;
-    transition: none; /* Remove hover animation */
 }
 
 .w3-top .w3-bar .w3-button.w3-theme-d4 {
@@ -31,6 +27,7 @@ html, body, h1, h2, h3, h4, h5 {
 /* Profile Section */
 .profile-card {
     padding: 20px;
+    width: 90%;
 }
 
 .profile-image {
@@ -42,6 +39,7 @@ html, body, h1, h2, h3, h4, h5 {
 /* Interests Section */
 .interests-card {
     padding: 20px;
+    width: 90%;
 }
 
 .interests-card p {
@@ -52,11 +50,14 @@ html, body, h1, h2, h3, h4, h5 {
 .alert-box {
     padding: 15px;
     margin-bottom: 20px;
+    
 }
 
 /* Posts Section */
 .post-card {
     padding: 20px;
+    width: 90%;
+    margin: 15px;
 }
 
 .status-box {
@@ -66,12 +67,11 @@ html, body, h1, h2, h3, h4, h5 {
 
 .post-button {
     width: 100%;
-    transition: none; /* Remove hover animation */
 }
 
 .post-example {
     padding: 20px;
-}
+    width: 90%;
 
 .post-avatar {
     width: 60px;
@@ -88,8 +88,63 @@ html, body, h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+./* Friend Request Section */
 .friend-request {
     padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.friend-request-buttons {
+    display: flex;
+    gap: 10px; /* Add spacing between buttons */
+    justify-content: center; /* Center buttons horizontally */
+}
+
+.accept-button, .decline-button {
+    flex: 1; /* Make buttons take equal space */
+    max-width: 120px; /* Set a maximum width for buttons */
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.accept-button {
+    background-color: #4CAF50; /* Green color for Accept button */
+    color: white;
+}
+
+.decline-button {
+    background-color: #f44336; /* Red color for Decline button */
+    color: white;
+
+.friend-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.friend-request span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.accept-button, .decline-button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px; 
+}
+
+.accept-button {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.decline-button {
+    background-color: #f44336; 
 }
 
 .friend-avatar {
@@ -105,5 +160,4 @@ html, body, h1, h2, h3, h4, h5 {
 
 .powered-by {
     text-align: center;
-    padding: 10px;
-}
+    padding: 10px;}
